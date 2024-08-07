@@ -1,26 +1,34 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
+// Colors.ts
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const Colors = {
+  // Primary Colors
+  primaryLight: "#A8DADC", // Light Teal
+  primary: "#457B9D", // Calm Blue
+  primaryDark: "#1D3557", // Deep Blue
 
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+  // Accent Colors
+  accentLight: "#FFE8D6", // Soft Peach
+  accent: "#FFB4A2", // Peach
+  accentDark: "#E63946", // Red Coral
+
+  // Neutral Colors
+  backgroundLight: "#F1FAEE", // Light Mint
+  background: "#F8F9FA", // Light Gray
+  backgroundDark: "#E5E5E5", // Medium Gray
+
+  textPrimary: "#333333", // Dark Gray
+  textSecondary: "#4F4F4F", // Medium Gray
+  textLight: "#FFFFFF", // White
+
+  // Semantic Colors
+  success: "#4CAF50", // Green
+  warning: "#FF9800", // Orange
+  error: "#F44336", // Red
+
+  // Custom Colors
+  calmGreen: "#8FCB9B", // Calm Green
+  peacefulPurple: "#8E7DBE", // Peaceful Purple
+  serenityYellow: "#FFE194", // Serenity Yellow
 };
+
+export default Colors;
