@@ -1,15 +1,19 @@
-import treeImage from "@/assets/meditation-images/trees.webp";
-import meditatingUnderTree from "@/assets/meditation-images/meditate-under-tree.webp";
-import riverImage from "@/assets/meditation-images/river.webp";
-import beachImage from "@/assets/meditation-images/beach.webp";
-import yosemiteStars from "@/assets/meditation-images/yosemite-stars.webp";
-import waterfall from "@/assets/meditation-images/waterfall.webp";
+// Import each image file using require
+const treeImage = require("@/assets/meditation-images/trees.webp");
+const meditatingUnderTree = require("@/assets/meditation-images/meditate-under-tree.webp");
+const riverImage = require("@/assets/meditation-images/river.webp");
+const beachImage = require("@/assets/meditation-images/beach.webp");
+const yosemiteStars = require("@/assets/meditation-images/yosemite-stars.webp");
+const waterfall = require("@/assets/meditation-images/waterfall.webp");
 
-export default [
-  treeImage,
-  riverImage,
-  meditatingUnderTree,
-  beachImage,
-  yosemiteStars,
-  waterfall,
+// Exporting an array of images
+const MEDITATION_IMAGES = [
+  treeImage, // Index 0
+  riverImage, // Index 1
+  meditatingUnderTree, // Index 2
+  beachImage, // Index 3
+  yosemiteStars, // Index 4
+  waterfall, // Index 5
 ];
+
+export default MEDITATION_IMAGES;
