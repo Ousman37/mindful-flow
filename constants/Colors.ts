@@ -1,34 +1,31 @@
-// Colors.ts
-
 const Colors = {
   // Primary Colors
-  primaryLight: "#A8DADC", // Light Teal
-  primary: "#457B9D", // Calm Blue
-  primaryDark: "#1D3557", // Deep Blue
-
+  primaryLight: "#A8DADC", 
+  primary: "#457B9D", 
+  primaryDark: "#1D3557", 
   // Accent Colors
-  accentLight: "#FFE8D6", // Soft Peach
-  accent: "#FFB4A2", // Peach
-  accentDark: "#E63946", // Red Coral
+  accentLight: "#FFE8D6", 
+  accent: "#FFB4A2", 
+  accentDark: "#E63946", 
 
   // Neutral Colors
-  backgroundLight: "#F1FAEE", // Light Mint
-  background: "#F8F9FA", // Light Gray
-  backgroundDark: "#E5E5E5", // Medium Gray
+  backgroundLight: "#F1FAEE", 
+  background: "#F8F9FA", 
+  backgroundDark: "#E5E5E5", 
 
-  textPrimary: "#333333", // Dark Gray
-  textSecondary: "#4F4F4F", // Medium Gray
-  textLight: "#FFFFFF", // White
+  textPrimary: "#333333", 
+  textSecondary: "#4F4F4F", 
+  textLight: "#FFFFFF", 
 
   // Semantic Colors
-  success: "#4CAF50", // Green
-  warning: "#FF9800", // Orange
-  error: "#F44336", // Red
+  success: "#4CAF50", 
+  warning: "#FF9800", 
+  error: "#F44336", 
 
   // Custom Colors
-  calmGreen: "#8FCB9B", // Calm Green
-  peacefulPurple: "#8E7DBE", // Peaceful Purple
-  serenityYellow: "#FFE194", // Serenity Yellow
+  calmGreen: "#8FCB9B", 
+  peacefulPurple: "#8E7DBE", 
+  serenityYellow: "#FFE194", 
 };
 
 export default Colors;
