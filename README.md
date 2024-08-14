@@ -46,59 +46,47 @@ npm run ios
 ### 🛠️ Development
 
 ## Project Structure
-## Project Structure
 
-- **`app/`**: Contains the main application code, organized into screens:
-  - **`(modal)/`**: Contains modal screens like `adjust-meditation-duration.tsx`.
-  - **`(tabs)/`**: Houses the tab-based navigation screens such as `affirmations` and `meditate`.
-  - **`index.tsx`**: The main entry screen of the app.
-  
-- **`assets/`**: Includes all images, fonts, and other static resources:
-  - **`affirmation-images/`**: Images used in affirmation screens.
-  - **`meditation-images/`**: Images used in meditation screens.
-  - **`fonts/`**: Custom fonts used throughout the app.
-  - **`audio/`**: Audio files for guided meditation.
-  
-- **`components/`**: Reusable components used throughout the app:
-  - **`AppGradient.tsx`**: Component for gradient backgrounds.
-  - **`CustomButton.tsx`**: Reusable button component.
-  - **`GuidedAffirmationsGallery.tsx`**: Component for displaying affirmation galleries.
-  
-- **`constants/`**: Stores configuration files, color schemes, and other constants.
-  
-- **`context/`**: Contains context providers for state management across the app:
-  - **`TimerContext.tsx`**: Context for managing meditation timer duration.
-  
-- **`hooks/`**: Custom hooks to enhance functionality.
-  
-- **`models/`**: Data models used in the app.
-  
-- **`scripts/`**: Utility scripts for project maintenance.
+# app/: Contains the main application code, organized into screens:
+# (modal)/: Contains modal screens like adjust-meditation-duration.tsx.
+# (tabs)/: Houses the tab-based navigation screens such as affirmations and meditate.
+# index.tsx: The main entry screen of the app.
+# assets/: Includes all images, fonts, and other static resources:
+# affirmation-images/: Images used in affirmation screens.
+# meditation-images/: Images used in meditation screens.
+# fonts/: Custom fonts used throughout the app.
+# audio/: Audio files for guided meditation.
+# components/: Reusable components used throughout the app:
+# AppGradient.tsx: Component for gradient backgrounds.
+# CustomButton.tsx: Reusable button component.
+# GuidedAffirmationsGallery.tsx: Component for displaying affirmation galleries.
+# constants/: Stores configuration files, color schemes, and other constants.
+# context/: Contains context providers for state management across the app:
+# context/: Contains context providers for state management across the app:
+# TimerContext.tsx: Context for managing meditation timer duration.
+# hooks/: Custom hooks to enhance functionality.
+# models/: Data models used in the app.
+# scripts/: Utility scripts for project maintenance.
 
-## Key Technologies
+### Key Technologies
+- React Native: Core framework for building mobile apps.
+- Expo: Framework and platform for universal React applications.
+- Tailwind CSS with NativeWind: Utility-first CSS framework for styling.
 
-- **React Native**: Core framework for building mobile apps.
-- **Expo**: Framework and platform for universal React applications.
-- **Tailwind CSS with NativeWind**: Utility-first CSS framework for styling.
-
-## Contributing
-
+### Contributing
 We welcome contributions from the community! If you'd like to contribute:
 
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/my-feature`).
-3. Make your changes and commit them (`git commit -m 'Add my feature'`).
-4. Push to the branch (`git push origin feature/my-feature`).
+2. Create a new branch (git checkout -b feature/my-feature).
+3. Make your changes and commit them (git commit -m 'Add my feature').
+4. Push to the branch (git push origin feature/my-feature).
 5. Open a Pull Request.
 
-## 📜 License
+### 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## 💬 Get in Touch
-
-Feel free to reach out if you have any questions or suggestions! Connect with us on [GitHub](https://github.com/Ousman37/mindful-flow/issues).
+### 💬 Get in Touch
+Feel free to reach out if you have any questions or suggestions! Connect with us on GitHub.
 
 ---
-
 Enjoy your journey to mindfulness with **Mindful Flow**! 🌿
