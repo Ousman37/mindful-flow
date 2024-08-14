@@ -2,7 +2,7 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
-    "jsx": "react-native", // Ensures JSX is processed correctly for React Native
+    "jsx": "react-native",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -10,17 +10,19 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
     "paths": {
-      "@/*": ["./*"], // Shorter import paths for your project
-      "nativewind": ["node_modules/nativewind/types"]
+      "@/*": [
+        "./*"
+      ],
+      "nativewind": [
+        "node_modules/nativewind/types"
+      ]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts",
     "constants/Colors.ts",
-    "declarations.d.ts" // Ensure this is included for NativeWind types
+    "declarations.d.ts"
   ],
   "exclude": [
     "node_modules",
