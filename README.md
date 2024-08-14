@@ -1,50 +1,104 @@
-# Welcome to your Expo app 👋
+# 🧘 Mindful Flow
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Mindful Flow** is your ultimate companion for a peaceful and focused mind. Whether you're looking to practice meditation, engage with daily affirmations, or simply carve out some time for mindfulness, this app is designed to guide you on your journey to inner peace.
 
-## Get started
+## 🌟 Features
 
-1. Install dependencies
+- **Meditation Sessions**: Explore a variety of guided meditation sessions tailored to different needs and time frames.
+- **Daily Affirmations**: Boost your positivity and self-esteem with daily affirmations categorized by themes like positivity, success, and reducing anxiety.
+- **Customizable Duration**: Adjust the duration of your meditation sessions according to your schedule and preferences.
+- **Beautiful Imagery**: Immerse yourself in serene landscapes that accompany each meditation session.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- [Git](https://git-scm.com/)
+
+### Installation
+
+1. **Clone the repository**:
 
    ```bash
-   npm install
-   ```
+   git clone git@github.com:Ousman37/mindful-flow.git
+   cd mindful-flow
 
-2. Start the app
+2. Install dependencies:
 
-   ```bash
-    npx expo start
-   ```
+  ```bash
+  npm install
 
-In the output, you'll find options to open the app in a
+3. Start the development server:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+ npx start expo -c
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+ This will start the Expo development server, and you can run the app on your Android/iOS emulator or directly on your device via the Expo Go app.
 
-## Get a fresh project
+### Running on iOS
+To run the app on iOS, ensure you have Xcode installed on your Mac. Then, run:
 
-When you're ready, run:
+npm run ios
 
-```bash
-npm run reset-project
-```
+### 🛠️ Development
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Project Structure
+## Project Structure
 
-## Learn more
+- **`app/`**: Contains the main application code, organized into screens:
+  - **`(modal)/`**: Contains modal screens like `adjust-meditation-duration.tsx`.
+  - **`(tabs)/`**: Houses the tab-based navigation screens such as `affirmations` and `meditate`.
+  - **`index.tsx`**: The main entry screen of the app.
+  
+- **`assets/`**: Includes all images, fonts, and other static resources:
+  - **`affirmation-images/`**: Images used in affirmation screens.
+  - **`meditation-images/`**: Images used in meditation screens.
+  - **`fonts/`**: Custom fonts used throughout the app.
+  - **`audio/`**: Audio files for guided meditation.
+  
+- **`components/`**: Reusable components used throughout the app:
+  - **`AppGradient.tsx`**: Component for gradient backgrounds.
+  - **`CustomButton.tsx`**: Reusable button component.
+  - **`GuidedAffirmationsGallery.tsx`**: Component for displaying affirmation galleries.
+  
+- **`constants/`**: Stores configuration files, color schemes, and other constants.
+  
+- **`context/`**: Contains context providers for state management across the app:
+  - **`TimerContext.tsx`**: Context for managing meditation timer duration.
+  
+- **`hooks/`**: Custom hooks to enhance functionality.
+  
+- **`models/`**: Data models used in the app.
+  
+- **`scripts/`**: Utility scripts for project maintenance.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Key Technologies
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **React Native**: Core framework for building mobile apps.
+- **Expo**: Framework and platform for universal React applications.
+- **Tailwind CSS with NativeWind**: Utility-first CSS framework for styling.
 
-## Join the community
+## Contributing
 
-Join our community of developers creating universal apps.
+We welcome contributions from the community! If you'd like to contribute:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/my-feature`).
+3. Make your changes and commit them (`git commit -m 'Add my feature'`).
+4. Push to the branch (`git push origin feature/my-feature`).
+5. Open a Pull Request.
+
+## 📜 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 💬 Get in Touch
+
+Feel free to reach out if you have any questions or suggestions! Connect with us on [GitHub](https://github.com/Ousman37/mindful-flow/issues).
+
+---
+
+Enjoy your journey to mindfulness with **Mindful Flow**! 🌿

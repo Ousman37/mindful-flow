@@ -6,13 +6,12 @@ import {
   ImageBackground,
   FlatList,
   StatusBar,
-  StyleSheet, // Ensure StyleSheet is imported
+  StyleSheet, 
 } from "react-native";
 import AppGradient from "@/components/AppGradient";
 import { MEDITATION_DATA } from "@/constants/meditation-data";
 import MEDITATION_IMAGES from "@/constants/meditation-images";
 import { LinearGradient } from "expo-linear-gradient";
-import { SafeAreaView } from "react-native-safe-area-context";
 import { router } from "expo-router";
 
 const NatureMeditate = () => {
