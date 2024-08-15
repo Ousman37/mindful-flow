@@ -3,9 +3,9 @@ module.exports = {
   slug: "mindful-flow",
   version: "1.0.0",
   orientation: "portrait",
-  icon: "./images/icon.png", // Updated path
+  icon: "./assets/images/icon.png", // Correct path to icon.png
   splash: {
-    image: "./images/splash.png", // Updated path
+    image: "./assets/images/splash.png", // Correct path to splash.png
     resizeMode: "contain",
     backgroundColor: "#ffffff",
   },
@@ -20,16 +20,19 @@ module.exports = {
   android: {
     package: "com.yourname.mindfulflow",
     adaptiveIcon: {
-      foregroundImage: "./images/adaptive-icon.png", // Updated path
+      foregroundImage: "./assets/images/adaptive-icon.png", // Correct path to adaptive-icon.png
       backgroundColor: "#FFFFFF",
     },
   },
   web: {
-    favicon: "./images/favicon.png", // Updated path
+    favicon: "./assets/images/favicon.png", // Correct path to favicon.png
   },
   extra: {
     eas: {
-      projectId: "d879e6c8-0de5-48a5-bac5-7284804d03e2", // Project ID added
+      projectId: "d879e6c8-0de5-48a5-bac5-7284804d03e2", // Your project ID
     },
   },
+  plugins: [
+    "expo-router", // Ensure expo-router plugin is included
+  ],
 };
